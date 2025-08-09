@@ -55,10 +55,49 @@ a {
   align-items: center;
   padding: 12px;
   height: 70px;
-
 }
 
 .menu li:hover {
   color: black;
-    border-bottom: 4px solid var(--color-primary);
+  border-bottom: 4px solid var(--color-primary);
+}
+
+/*BANNER*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  width: 1352px;
+  background-image: url(../assets/Background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  font-size: 49px;
+  font-family: Raleway;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.banner p,
+a {
+  font-size: 16px/22px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner p {
+  margin-bottom: 25px;
+}
+
+.button {
+  color: white;
+  background-color: var(--color-primary);
+  padding: 22px 160px;
+  border-radius: 40px;
+}
+
+.first-button {
+  box-shadow: 5px 10px 14px #07ace629;
 }

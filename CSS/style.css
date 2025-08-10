@@ -66,11 +66,12 @@ a {
 .banner {
   display: flex;
   flex-direction: column;
-  height: 1000px;
+  height: 830px;
   width: 1352px;
   background-image: url(../assets/Background.png);
-  background-position: center;
+  background-position: bottom center;
   background-repeat: no-repeat;
+  margin: 0px;
 }
 
 .banner h1 {
@@ -82,7 +83,7 @@ a {
 
 .banner p,
 a {
-  font-size: 16px/22px;
+  font-size: 16px;
   text-align: center;
   margin-top: 50px;
 }
@@ -101,3 +102,63 @@ a {
 .first-button {
   box-shadow: 5px 10px 14px #07ace629;
 }
+
+/*GREAT WE ARE*/
+.great-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 100px;
+}
+
+.great-we-are h2 {
+  font-size: 36px;
+  font-family: Raleway;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 175px;
+  gap: 170px;
+}
+
+.statistic {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.statistic img {
+  position: relative;
+  max-height: 50px;
+  max-width: 65px;
+  left: 40px;
+  }
+
+.first-img::before {
+  content: "";
+  background-color: red;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+} /* -----------------------------CHYBA-----------------*/
+
+
+.statistic h3 {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: Raleway;
+  letter-spacing: 6px;
+}
+
+.statistic p {
+  font-size: 16px;
+  font-family: Raleway;
+  color: var(--color-grey);
+}
+

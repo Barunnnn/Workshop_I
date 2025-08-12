@@ -126,27 +126,56 @@ a {
   gap: 170px;
 }
 
+h3 {
+  font: normal 800 20px Raleway;
+}
 .statistic {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   text-align: center;
 }
 
 .statistic img {
-  position: relative;
+  position: absolute;
   max-height: 50px;
   max-width: 65px;
-  left: 40px;
+  top: 5px;
 }
 
-.first-img::before {
-  content: "";
-  background-color: red;
-  height: 65px;
-  width: 65px;
+.first-circle {
   border-radius: 50%;
-} /* -----------------------------CHYBA-----------------*/
+  width: 63px;
+  height: 63px;
+  position: relative;
+  background-color: var(--color-redish);
+}
+
+.statistic-eye img {
+  position: absolute;
+  max-height: 50px;
+  max-width: 65px;
+  top: 15px;
+  left: 30px;
+}
+.second-circle {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: relative;
+  background-color: var(--color-primary);
+}
+
+.third-circle {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: relative;
+  background-color: var(--color-green);
+}
+
+/* -----------------------------CHYBA-----------------*/
 
 .statistic h3 {
   font-weight: 800;

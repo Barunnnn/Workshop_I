@@ -126,9 +126,7 @@ a {
   gap: 170px;
 }
 
-h3 {
-  font: normal 800 20px Raleway;
-}
+
 .statistic {
   display: flex;
   flex-direction: column;
@@ -174,8 +172,6 @@ h3 {
   position: relative;
   background-color: var(--color-green);
 }
-
-/* -----------------------------CHYBA-----------------*/
 
 .statistic h3 {
   font-weight: 800;
@@ -317,3 +313,5 @@ h3 {
   height: auto;
   margin: 65px;
 }
+
+/*-----PRICING-----*/

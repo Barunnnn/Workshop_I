@@ -516,6 +516,7 @@ h5 {
 input {
   border: 1px solid white;
   border-bottom: 1px solid var(--color-grey);
+  width: 100%;
 }
 
 .GDPR {
@@ -549,4 +550,32 @@ input[type="checkbox"] {
   margin-left: 450px;
 }
 
+/*--FOOTER--*/
+.footer {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px -5px 40px #00000029;
+}
 
+.logo {
+  color: var(--color-primary);
+  font: normal normal 300 32px/37px Raleway;
+  margin-left: 136px;
+}
+
+.rights {
+  margin-left: 136px;
+  margin-top: 10px;
+  color: var(--color-grey);
+  font-size: 11px;
+}
+
+.social {
+  margin-right: 136px;
+}
+
+.social a {
+  margin: 20px;
+}

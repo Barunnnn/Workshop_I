@@ -466,7 +466,7 @@ a {
   text-align: left;
 }
 
-.questions-text p{
+.questions-text p {
   font-size: 16px;
   padding: 22px 0;
 }
@@ -474,7 +474,7 @@ a {
 .contact {
   display: flex;
   gap: 50px;
-  color: var(--color-grey)
+  color: var(--color-grey);
 }
 
 #e-mail-bestshop::before {
@@ -499,12 +499,54 @@ a {
 
 .questions-form {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+h5 {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 3.28px;
+  color: var(--color-primary);
+}
+
+input {
+  border: 1px solid white;
+  border-bottom: 1px solid var(--color-grey);
 }
 
 .GDPR {
-  display:flex;
+  display: flex;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] {
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  border: 1px solid var(--color-grey);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-width: 150px;
+  margin-left: 450px;
 }
 
 
